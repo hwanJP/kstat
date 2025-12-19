@@ -495,9 +495,8 @@ export default function GraphExplorerPage() {
           },
           font: {
             color: '#ffffff',
-            size: isQuestion ? 9 : 14,  // Question 라벨 더 작게
+            size: isQuestion ? 9 : (hasChildren ? 16 : 14),  // Question 작게, 자식있으면 크게
             face: 'Arial',
-            bold: !isQuestion && hasChildren
           },
           size: isQuestion ? 10 : node.size,  // Question 노드 더 작게
           title: hasChildren 
