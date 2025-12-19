@@ -1,2 +1,3 @@
 .env 
 backend/.env  survey-builder/.env.local  __pycache__/  node_modules/  .next/  .vscode/  *.pyc 
+node_modules/ 
