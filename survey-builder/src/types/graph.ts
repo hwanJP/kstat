@@ -3,17 +3,20 @@
 export interface GraphNode {
   id: string;
   label: string;
-  type: 'SurveyCategory' | 'Area' | 'Item' | 'Question' | 'Layout' | 'Document';
-  color: string;
-  size: number;
-  full_text?: string;  // Question의 전체 텍스트
+  type: 'SurveyCategory' | 'Area' | 'Item' | 'Question' | 'Layout' | 'Document' | string;
+  name?: string;
+  color?: string;
+  size?: number;
+  full_text?: string;
+  questionNumber?: number;
+  properties?: Record<string, unknown>;
 }
 
 export interface GraphLink {
   source: string;
   target: string;
-  label: string;
-  type: 'hierarchy' | 'direct' | 'normal' | 'followup';
+  label?: string;
+  type: string;
 }
 
 export interface GraphData {

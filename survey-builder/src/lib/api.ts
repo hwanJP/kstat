@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -120,19 +120,25 @@ export const exportSurvey = async (
 
 export default api;
 
-// GraphRAG API 타입 정의
+// ============================================
+// GraphRAG API
+// ============================================
+
 export interface GraphNode {
   id: string;
   label: string;
-  type: string;
-  name: string;
-  properties: Record<string, unknown>;
+  type: 'SurveyCategory' | 'Area' | 'Item' | 'Question' | 'Layout' | 'Document' | string;
+  name?: string;
+  color?: string;
+  size?: number;
+  full_text?: string;
+  properties?: Record<string, unknown>;
 }
 
-export interface GraphEdge {
-  id: string;
+export interface GraphLink {
   source: string;
   target: string;
+  label?: string;
   type: string;
 }
 
@@ -145,18 +151,21 @@ export interface GraphData {
   };
 }
 
-export interface GraphLink {
-  source: string;
-  target: string;
-  label: string;
-  type: string;
-}
-
 export interface GraphStats {
   total_nodes: number;
   total_edges: number;
   node_counts: Record<string, number>;
   edge_counts: Record<string, number>;
+}
+
+export interface GraphHealthStatus {
+  neo4j_uri: string;
+  neo4j_user: string;
+  neo4j_password: string;
+  graphrag_initialized: boolean;
+  neo4j_driver_exists: boolean;
+  status: string;
+  error?: string;
 }
 
 export const getGraphData = async (
@@ -173,17 +182,6 @@ export const getGraphStats = async (): Promise<GraphStats> => {
   const response = await api.get('/api/graph/stats');
   return response.data;
 };
-
-// Graph Health Check
-export interface GraphHealthStatus {
-  neo4j_uri: string;
-  neo4j_user: string;
-  neo4j_password: string;
-  graphrag_initialized: boolean;
-  neo4j_driver_exists: boolean;
-  status: string;
-  error?: string;
-}
 
 export const getGraphHealth = async (): Promise<GraphHealthStatus> => {
   const response = await api.get('/api/graph/health');
