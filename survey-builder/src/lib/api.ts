@@ -138,7 +138,18 @@ export interface GraphEdge {
 
 export interface GraphData {
   nodes: GraphNode[];
-  edges: GraphEdge[];
+  links: GraphLink[];
+  stats: {
+    total_nodes: number;
+    total_links: number;
+  };
+}
+
+export interface GraphLink {
+  source: string;
+  target: string;
+  label: string;
+  type: string;
 }
 
 export interface GraphStats {
