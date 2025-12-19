@@ -1,0 +1,372 @@
+{
+  "nodes": [
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "label": "사회지표조사",
+      "type": "SurveyCategory",
+      "color": "#E67E22"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "취업 · 직업 · 창업",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:5",
+      "label": "희망 직업 분야",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:9",
+      "label": "희망 창업 분야",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:11",
+      "label": "취업 희망 지역",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:13",
+      "label": "희망 지역 선택 이유",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:17",
+      "label": "직업 만족도",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:49",
+      "label": "직업",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:24",
+      "label": "여가 · 문화활동",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:25",
+      "label": "문화활동 종류",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:28",
+      "label": "지역 특성",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:29",
+      "label": "지역 특성 관련 항목",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "label": "인구사회학적 특성",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:40",
+      "label": "성별",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:42",
+      "label": "연령",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:193",
+      "label": "혼인 상태",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:46",
+      "label": "교육",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:47",
+      "label": "최종학력",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "label": "삶의 만족 · 웰빙",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:176",
+      "label": "전반적 삶 만족도",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:178",
+      "label": "지역 생활 만족도",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:180",
+      "label": "행복 경험",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:182",
+      "label": "걱정 경험",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "label": "가족 · 가구 구성",
+      "type": "Area",
+      "color": "#3498DB"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:185",
+      "label": "가구원 정보",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:187",
+      "label": "분거 여부",
+      "type": "Item",
+      "color": "#2ECC71"
+    },
+    {
+      "id": "4:efa323f4-fcf0-404f-962b-241173d01852:189",
+      "label": "분거 이유",
+      "type": "Item",
+      "color": "#2ECC71"
+    }
+  ],
+  "links": [
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:5",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:9",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:11",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:13",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:17",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:4",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:49",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:24",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:24",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:25",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:28",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:28",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:29",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:29",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:40",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:42",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:36",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:193",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:46",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:46",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:47",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:176",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:178",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:180",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:175",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:182",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:185",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:187",
+      "label": "HAS_ITEM"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:173",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "label": "HAS_AREA"
+    },
+    {
+      "source": "4:efa323f4-fcf0-404f-962b-241173d01852:184",
+      "target": "4:efa323f4-fcf0-404f-962b-241173d01852:189",
+      "label": "HAS_ITEM"
+    }
+  ],
+  "stats": {
+    "total_nodes": 27,
+    "total_links": 40
+  }
+}
