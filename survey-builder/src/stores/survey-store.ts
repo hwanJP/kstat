@@ -122,7 +122,12 @@ export const useSurveyStore = create<SurveyStore>((set, get) => ({
   // 메시지 추가 (사용자 입력 시 화면에 먼저 표시)
   addMessage: (role, content) =>
     set((state) => ({
-      messages: [...state.messages, { role, content }],
+      messages: [...state.messages, { 
+        id: `msg_${Date.now()}`,
+        role, 
+        content,
+        timestamp: new Date()
+      }],
     })),
 
   // 로딩 상태 설정
@@ -158,9 +163,11 @@ export const useSurveyStore = create<SurveyStore>((set, get) => ({
    */
   updateFromResponse: (response) => {
     // 1) 메시지 포맷 정리: 서버 role → 클라이언트 role 매핑
-    const messages: Message[] = response.messages.map((m) => ({
+    const messages: Message[] = response.messages.map((m, idx) => ({
+      id: `msg_${Date.now()}_${idx}`,
       role: m.role as 'user' | 'assistant',
       content: m.content,
+      timestamp: new Date()
     }));
     
     // 2) PreviewPanel 업데이트 정보 생성
