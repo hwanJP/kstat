@@ -175,7 +175,8 @@ export const useSurveyStore = create<SurveyStore>((set, get) => ({
     if (response.changed_field && response.changed_value) {
       activePreview = {
         field: response.changed_field,
-        content: response.changed_value,
+        displayName: response.changed_field,
+        value: response.changed_value,
       };
     }
     
